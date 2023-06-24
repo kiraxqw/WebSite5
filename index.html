@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.3.js"integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="box">
+		<div class="retreat">
+			<!-- <div class="div1_div2"> -->
+				<div class="div1">
+					<nav class="nav1">
+						<div class="div1_nav">
+							<div class="div_nav1">
+								<img src="img/nft.png" alt="" class="img_nft">
+							</div>
+						</div>
+						<div class="div2_nav">
+							<div class="div_nav2">
+								<h2>Explore</h2>
+							</div>
+							<div class="div_nav3">
+								<h2>Creators</h2>
+							</div>
+							<div class="div_nav4">
+								<h2>Community</h2>
+							</div>
+							<div class="div_nav5">
+								<h2>Connect Wallet</h2>
+							</div>
+		
+							<div id="dialog2" title="Basic dialog">
+								<p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+							</div>
+						</div>
+					</nav>
+					<div class="div2">
+						<div class="explore">
+							<h1><strong>Explore, Buy and Sell the <h1 style="color: #FFCE4E;">Best NFTs!</h1></strong></h1>
+							<div class="buttons1">
+								<button class="but_explore"><strong>Explore</strong></button>
+								<button class="but_create"><strong>Create</strong></button>
+							</div>
+							<div class="artw_auct_cr">
+								<div class="artw">
+									<h1>32k+</h1>
+									<p>Artworks</p>
+								</div>
+								<div class="auct">
+									<h1>20k+</h1>
+									<p>Auctions</p>
+								</div>
+								<div class="cr">
+									<h1>12k+</h1>
+									<p>Creators</p>
+								</div>
+							</div>
+						</div>
+						<div class="nft1">
+							<div class="img_nft1">
+								<div class="access">
+									<div class="currB">
+										<p>Current Bid</p>
+										<h1>0.99 ETH</h1>
+									</div>
+									<div class="endsIn">
+										<p>Ends in</p>
+										<h1>25 hrs</h1>
+									</div>
+									
+								</div>
+								
+							</div>
+							<div class="artist">
+								<div class="art_text">
+									<h1>Artist</h1>
+									<p>@wzard</p>
+								</div>
+								<button class="startBid">Start Bid</button>
+		
+								<div id="dialog" title="Basic dialog">
+									<p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+								</div>
+							</div>
+					<!-- </div> -->
+				</div>
+			</div>
+			<footer class="footer1"></footer>
+			
+			<div class="liveAuctions">
+				<!-- <div class="purpleCircle"></div>
+				<h1>Live Auctions</h1> -->
+				<h1 class="lAuct"></h1>
+				<div class="arrows">
+					<img src="img/arr_left.png" alt="" class="arr_left swiper-button-next">
+					<img src="img/arr_right.png" alt="" class="arr_right swiper-button-prev">
+				</div>
+				<div class="slider_cont swiper-container">
+					<div class="posts1 swiper-wrapper">
+						<div class="post1_lAuct post_lAuct swiper-slide">
+							<div class="img_post1_lAuct">
+								<div class="countdown">
+									<h1>03:18:24</h1>
+								</div>
+							</div>
+							<div class="artist_lAuct">
+								<img src="img/artPhoto1.png" alt="" class="artPhoto3">
+								<h1>Virtual Art</h1>
+								<p>by @wzard</p>
+	
+							</div>
+							<div class="curB_lAuct">
+								<p>Current Bid</p>
+								<h1>4.89 ETH</h1>
+							</div>
+							<button class="pl_a_bid1">Place a bid</button>
+						</div>
+						<div class="post2_lAuct post_lAuct swiper-slide">
+							<div class="img_post2_lAuct">
+								<div class="countdown">
+									<h1>03:18:24</h1>
+								</div>
+							</div>
+							<div class="artist_lAuct">
+								<img src="img/artPhoto1.png" alt="" class="artPhoto3">
+								<h1>Virtual Art</h1>
+								<p>by @wzard</p>
+	
+							</div>
+							<div class="curB_lAuct">
+								<p>Current Bid</p>
+								<h1>4.89 ETH</h1>
+							</div>
+							<button class="pl_a_bid1">Place a bid</button>
+						</div>
+						<div class="post3_lAuct post_lAuct swiper-slide">
+							<div class="img_post3_lAuct">
+								<div class="countdown">
+									<h1>03:18:24</h1>
+								</div>
+							</div>
+							<div class="artist_lAuct">
+								<img src="img/artPhoto1.png" alt="" class="artPhoto3">
+								<h1>Virtual Art</h1>
+								<p>by @wzard</p>
+	
+							</div>
+							<div class="curB_lAuct">
+								<p>Current Bid</p>
+								<h1>4.89 ETH</h1>
+							</div>
+							<button class="pl_a_bid1">Place a bid</button>
+						</div>
+						<div class="post1_lAuct post_lAuct swiper-slide">
+							<div class="img_post1_lAuct">
+								<div class="countdown">
+									<h1>03:18:24</h1>
+								</div>
+							</div>
+							<div class="artist_lAuct">
+								<img src="img/artPhoto1.png" alt="" class="artPhoto3">
+								<h1>Virtual Art</h1>
+								<p>by @wzard</p>
+	
+							</div>
+							<div class="curB_lAuct">
+								<p>Current Bid</p>
+								<h1>4.89 ETH</h1>
+							</div>
+							<button class="pl_a_bid1">Place a bid</button>
+						</div>
+						<div class="post2_lAuct post_lAuct swiper-slide">
+							<div class="img_post2_lAuct">
+								<div class="countdown">
+									<h1>03:18:24</h1>
+								</div>
+							</div>
+							<div class="artist_lAuct">
+								<img src="img/artPhoto1.png" alt="" class="artPhoto3">
+								<h1>Virtual Art</h1>
+								<p>by @wzard</p>
+	
+							</div>
+							<div class="curB_lAuct">
+								<p>Current Bid</p>
+								<h1>4.89 ETH</h1>
+							</div>
+							<button class="pl_a_bid1">Place a bid</button>
+						</div>
+						<div class="post3_lAuct post_lAuct swiper-slide">
+							<div class="img_post3_lAuct">
+								<div class="countdown">
+									<h1>03:18:24</h1>
+								</div>
+							</div>
+							<div class="artist_lAuct">
+								<img src="img/artPhoto1.png" alt="" class="artPhoto3">
+								<h1>Virtual Art</h1>
+								<p>by @wzard</p>
+	
+							</div>
+							<div class="curB_lAuct">
+								<p>Current Bid</p>
+								<h1>4.89 ETH</h1>
+							</div>
+							<button class="pl_a_bid1">Place a bid</button>
+						</div>
+					</div>
+				</div>
+				
+
+			</div>
+
+			<div class="exploreByCategories">
+				<!-- <div class="purpleCircle"></div>
+				<h1>Explore By Categories</h1> -->
+				<h1 class="expl_b_categ"></h1>
+				<div class="posts3">
+					<div class="post1 post">
+						<div class="img_post1"></div>
+						<div class="artist_explByCateg">
+							<img src="img/artPhoto3.png" alt="" class="artPhoto3">
+							<h1>Virtual Art</h1>
+							<p>by @wzard</p>
+
+						</div>
+						<div class="curB_explByCateg">
+							<p>Current Bid</p>
+							<h1>4.89 ETH</h1>
+						</div>
+					</div>
+					<div class="post2 post">
+						<div class="img_post2"></div>
+						<div class="artist_explByCateg">
+							<img src="img/artPhoto3.png" alt="" class="artPhoto3">
+							<h1>Virtual Art</h1>
+							<p>by @wzard</p>
+
+						</div>
+						<div class="curB_explByCateg">
+							<p>Current Bid</p>
+							<h1>4.89 ETH</h1>
+						</div>
+					</div>
+					<div class="post3 post">
+						<div class="img_post3"></div>
+						<div class="artist_explByCateg">
+							<img src="img/artPhoto3.png" alt="" class="artPhoto3">
+							<h1>Virtual Art</h1>
+							<p>by @wzard</p>
+
+						</div>
+						<div class="curB_explByCateg">
+							<p>Current Bid</p>
+							<h1>4.89 ETH</h1>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+</body>
+<script src="js/script.js"></script>
+</html>
